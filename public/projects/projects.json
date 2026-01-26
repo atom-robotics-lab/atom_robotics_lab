@@ -1,0 +1,332 @@
+[
+    {
+      "title": "MR Robot GUI",
+      "description": "ROS | OpenCV | Gazebo | Robot-Perception",
+      "bgImage": "/project-thumbnails/mr-robot.png",
+      "sections": [
+        {
+          "title": "MR ROBOT GUI",
+          "image": "/project-thumbnails/mr_robot_gui1.png",
+          "content": [
+            "MR-ROBOT-gui is an innovative web UI designed to seamlessly integrate ROS (Robot Operating System) and JavaScript, offering users an intuitive platform for controlling and monitoring ROS-based robots.",
+            "This web application enables real-time wireless control of ros based robots. By utilizing a rosbridge server, it ensures smooth and efficient communication between the user interface and the robot, allowing for precise and responsive control. This setup is ideal for applications requiring remote operation, providing a reliable and user-friendly platform for managing complex robotic movements."
+          ]
+        },
+        {
+            "title": "Prerequisites",
+            "image": "/project-thumbnails/mr_robot_gui2.png",
+            "content": [
+              "<b>Roslibjs</b>",
+              "Roslibjs is the standard ROS JavaScript library designed for interacting with ROS (Robot Operating System) from a web browser. It utilizes WebSockets to establish a connection with rosbridge, providing a communication channel for ROS functionality between the browser and the ROS environment. This library facilitates tasks such as subscribing to ROS topics, publishing messages, making service calls, and interacting with the ROS Parameter Server directly from a web page You can learn more about it from roslibjs- ROS Wiki",
+              "<b>ROS (Robot Operating System):</b> Install ROS on the system that controls the robotic arm. You can find installation instructions on the ROS official website",
+              "<b>rosbridge_suite:</b> Install the rosbridge_suite package to enable communication between ROS and the web GUI. You can install it by following the instructions given below or in the rosbridge_suite GitHub repository",
+              "<b>Web video server:</b> The web_video_server package for ROS1 provides a web-based interface for streaming video from ROS-compatible cameras and video sources. It allows users to view live video feeds through a web browser, making it easier to monitor and manage robotic systems remotely."
+            ]
+          },
+          {
+            "title": "FEATURES",
+            "image": "/project-thumbnails/mr_robot_gui3.png",
+            "content": [
+              "<b>1. Power Button:</b> The mighty power button is your gateway to connection bliss. When activated, it establishes the link between the simulation and the webpage through WebSocket magic. Witness the transformation as the UI comes to life.",
+              "<b>2. Minimap:</b> Behold the world from a bird's eye view! The minimap gracefully displays the robot's position on the map. Give it a double-click, and it expands into a full-screen marvel, providing a closer look at the robot's journey.",
+              "<b>3. Setting Goals:</b> In the realm of the full-screen map, your desires become the robot's goals. Simply double-click on the map to set a goal for the robot. It's not just navigation; it's a command given with a touch.",
+              "<b> Keyboard controls:</b> W to move forward, S to move backwards, A to move left, D to move right and SHIFT to increase the speed"
+            ]
+          },
+          {
+            "title": "FLOW OF CONTROL",
+            "image": "/project-thumbnails/mr_robot_gui4.png",
+            "content": [
+                ""
+
+            ]
+          }
+      ]
+    },
+    {
+      "title": "CNC",
+      "description": "ROS | OpenCV | Gazebo | Robot-Perception",
+      "bgImage": "/project-thumbnails/cnc.png",
+      "sections": [
+        {
+          "title": "CNC",
+          "image": "/project-thumbnails/cncc.png",
+          "content": [
+            "This incredible tool puts the power of precision machining right in the palm of your hand. Whether you're working on intricate prototypes or tackling complex machining tasks, this CNC milling machine is your key to unparalleled accuracy and versatility."
+          ]
+        },
+        {
+            "title": "Basic Project Overview",
+            "content": [
+              "This incredible tool puts the power of precision machining right in the palm of your hand. Whether you're working on intricate prototypes or tackling complex machining tasks, this CNC milling machine is your key to unparalleled accuracy and versatility.",
+              "CNC stands for Computer Numerical Control. It refers to the automated control of machining tools and 3D printers by means of a computer. In a CNC system, a computerized controller executes pre-programmed sequences of machine control commands, known as G-codes and M-codes, to direct the movement of the tool and the workpiece, as well as control other aspects of the machining process. CNC technology is widely used in various manufacturing industries for tasks such as cutting, milling, drilling, additive manufacturing (3D printing), and more.",
+              "Key components of a CNC system include:",
+              "1) <b>Computer-Aided Design (CAD):</b> Software used for designing the parts or products to be manufactured.",
+              "2) <b>Computer-Aided Manufacturing (CAM):</b> Software that converts the design created in CAD into the G-code, which is the language understood by the CNC machine.",
+              "3) <b>CNC Controller:</b> The central computer that interprets the G-code and controls the movement of the machine tools.",
+              "4) <b>achine Tool:</b> The equipment that performs the actual machining operations, such as cutting or shaping materials.",
+              "CNC technology offers several advantages, including precision, repeatability, and the ability to produce complex and intricate parts with high accuracy. It has revolutionized manufacturing processes, enabling faster production, reducing manual labor, and improving the overall efficiency of machining operations. CNC machines are used in a wide range of industries, including aerospace, automotive, electronics, and prototyping, among others."
+            ]
+          },
+          {
+            "title": "HARDWARE WORKING",
+            "content": [
+                "<b>Components:</b>",
+                "<b>Stepper Motors and Coupling:</b> The NEMA 17 stepper motor is commonly used in CNC applications for its precise control. It converts electrical pulses from the Arduino into rotational motion, allowing precise positioning of the CNC tool. Its voltage and current ratings are 12V and 3Amp with 1.8 degree of step angle, it has a standardized frame size of 1.7 inches by 1.7 inches (43.2 mm x 43.2 mm). It has standardized shaft diameter, often around 5 mm.",
+                "<b>Power Supply:</b> The power supply provides the necessary electrical power for the entire CNC system. It converts the incoming electrical power (AC) to the required voltage and current (DC) needed by the Arduino, stepper motors, and other components. Its rating of 12V and 5Amp.",
+                "<b>Arduino UNO:</b> The Arduino Uno is a microcontroller board based on the ATmega328P. It serves as the brain of the CNC system, interpreting G-code instructions and sending signals to control the movement of stepper motors.",
+                "<b>CNC Shield:</b> The CNC shield is an expansion board that fits onto the Arduino Uno. It provides additional connectors and circuits for connecting multiple stepper motors, limit switches, and other components required for CNC control.",
+                "<b>Motor Drivers:</b> Motor drivers are modules that control the power supplied to the stepper motors. They interpret signals from the Arduino and regulate the current flowing through the motors, allowing for smooth and precise movements.",
+                "<b>Emergency Stop Switch:</b> The emergency switch, also known as an E-stop (Emergency Stop) switch, is a safety feature that immediately cuts power to the CNC system in case of an emergency or unexpected situation. It ensures a quick shutdown in case of a malfunction or danger.",
+                "<b>Limit Switches:</b> Limit switches are used to define the boundaries of the CNC machine's movement. They are strategically placed along the axes to signal the Arduino when the tool reaches the physical limits, preventing overtravel and potential damage.",
+                "<b>Dremel:</b> A Dremel is a versatile rotary tool designed for a myriad of precision tasks. Known for its compact size and high-speed capabilities, it features a range of interchangeable attachments and accessories, making it suitable for tasks such as cutting, grinding, polishing, engraving, and more."
+            ]
+          },
+          {
+            "title": "3D PRINTED PARTS",
+            "image": "/project-thumbnails/3dparts.png",
+            "content": [
+                "They are:",
+                "<b>3-D Printed Parts:</b> Motor Holder, supporter, Dremel holder and circuit box is made by 3-D printing using PETGY material which is hard, reliable.",
+                "<b>Spiral Shafts (100 mm)</b> - precision-machined component featuring helical grooves or threads along its length, typically crafted from durable materials like stainless steel, aluminum, or titanium. The spiral design ensures smooth operation, reduced friction, and precise control."
+            ]
+          },
+          {
+            "title": "CNJS",
+            "image": "/project-thumbnails/sftware.png",
+            "content": [
+                "In a CNC system, a computerized controller executes pre-programmed sequences of machine control commands, known as G-codes and M-codes, to direct the movement of the tool and the workpiece, as well as control other aspects of the machining process.",
+                "A web-based interface for CNC milling controller running Grbl, Smoothieware, or TinyG. It runs on an Raspberry Pi or a laptop computer that you have Node.js installed, connecting to the Arduino over a serial connection using a USB serial port, a Bluetooth serial module, or a Serial-to-WiFi module like XBee or USR-WIFI232-T."
+
+            ]
+          }
+      ]
+    },
+    {
+        "title": "Robotic Arm",
+        "description": "ROS | OpenCV | Gazebo | Robot-Perception",
+        "bgImage": "/project-thumbnails/arm.png",
+        "sections": [
+          {
+            "title": "ROBOTIC ARM",
+            "video": "https://www.youtube.com/watch?v=kM_5QzVYqo8&t=2s",
+            "content": [
+              "A.J.G.A.R project, which features a 6 Degrees of Freedom (DoF) robotic arm that can move in six directions. A robotic manipulator is commonly used in industrial and manufacturing settings for tasks such as pick and place, assembly, and welding."
+            ]
+          },
+          {
+            "title": "ABOUT A.J.G.A.R",
+            "image": "/project-thumbnails/arm.png",
+            "content": [
+              "A.J.G.A.R is designed to autonomously handle objects, utilizing computer vision technology for this purpose. It also supports remote operation via teleoperation. The six degrees of freedom are typically achieved through the use of six stepper motors. Each stepper motor controls a single joint of the robotic arm, and together they allow the arm to move in a wide range of motions. The stepper motors are controlled by a microcontroller, which sends signals to the motors via stepper driver."
+            ]
+          },
+          {
+
+            "content": [
+              "This project is divided mainly into three parts:",
+              "<b>SOFTWARE</b> : The programming of this project is done using moveit, ikpy, gazebo and rviz simulation and perception. With the help of a kinect camera we precisely predicted its environment in 3D space, which improved the interaction with objects and people.",
+              "<b>HARDWARE</b> : Firstly a cad model was designed for optimized use case then all the components and 3D printed parts were manufactured and assembled.",
+              "<b>ELECTRONICS</b>: The electronics comprised of circuit desgin, sensor interfacing and wiring placing."
+            ]
+          },
+          {
+            "title": "Robotic Arm Control Web GUI",
+            "image": "/project-thumbnails/armgui.png",
+            "content": [
+              "This web application allows real-time wireless control of a 6 Degree of Freedom (DOF) Robotic Arm. It is connected via a rosbridge server to facilitate seamless communication with the robotic arm. You can find a GitHub repository for a robotic arm under A.T.O.M. Robotics Lab.",
+              "This web application enables real-time wireless control of a 6 Degree of Freedom (DOF) Robotic Arm. By utilising a rosbridge server, it ensures smooth and efficient communication between the user interface and the robotic arm, allowing for precise and responsive control. This setup is ideal for applications requiring remote operation, providing a reliable and user-friendly platform for managing complex robotic movements.",
+              "Technologies Used",
+              "<b>ROS (Robot Operating System):</b> The core framework for developing and controlling the robotic arm, managing communication between different components.",
+              "<b>Gazebo:</b> A 3D simulation environment used for testing and visualising the robotic arm in a virtual world, allowing for physics-based simulations",
+              "<b>RViz:</b> A 3D visualisation tool used to display the robot's state, sensor data, and the arm's movements in real-time.",
+              "<b>rosbridge:</b> Provides a JSON API for ROS, enabling web-based interfaces and remote control via WebSockets.",
+              "Python: Programming languages used for scripting and developing custom nodes and algorithms",
+              "<b>Web Technologies (HTML, CSS, JavaScript):</b> For creating web-based GUIs that interact with the robotic arm through rosbridge.",
+              "<b>MoveIt!:</b> A motion planning framework within ROS, often used for controlling robotic arms and planning complex motions",
+              "<b>Roslibjs</b>",
+              "Roslibjs is the standard ROS JavaScript library designed for interacting with ROS (Robot Operating System) from a web browser. It utilises WebSockets to establish a connection with rosbridge, providing a communication channel for ROS functionality between the browser and the ROS environment. This library facilitates tasks such as subscribing to ROS topics, publishing messages, making service calls, and interacting with the ROS Parameter Server directly from a web page You can learn more about it from roslibjs- ROS Wiki",
+              "<b>Rosbridge_suite</b>",
+              "The rosbridge_suite is a collection of tools and libraries that provide a JSON API to ROS (Robot Operating System) functionality for non-ROS programs. This allows different devices, applications, and programming languages to interact with ROS over standard network protocols like WebSockets and HTTP. Essentially, rosbridge_suite enables web browsers, smartphones, or any other networked device to communicate with a ROS system, making it easier to develop web-based interfaces, remote monitoring tools, or even control robots via the web. The suite includes rosbridge_server, which handles the communication between ROS and external clients, and other components like rosapi, which provides additional services and functionalities to expose ROS concepts (topics, services, and parameters) over the network. This makes rosbridge_suite a powerful tool for building real-time, distributed robotic applications that can be accessed and controlled remotely, enhancing the flexibility and accessibility of ROS-based systems.",
+              "Rosbridge server",
+              "The rosbridge_server is a core component of the rosbridge_suite, serving as a bridge that allows external devices or applications to communicate with a ROS (Robot Operating System) environment over standard network protocols, such as WebSockets. It effectively translates JSON-based messages from non-ROS clients into ROS messages that can interact with topics, services, and parameters within a ROS system.This server enables web applications, mobile apps, or other networked systems to interact with a robot or any ROS-powered device without needing to install ROS directly on the client side. The rosbridge_server listens for incoming connections, processes JSON-formatted commands, and then carries out the corresponding actions in the ROS environment, such as publishing to a topic, calling a service, or retrieving a parameter value.By using rosbridge_server, developers can create versatile, cross-platform applications for controlling robots, monitoring their status, or even creating complex user interfaces for robot interaction—all through a simple, standardised communication method.",
+              "<b>Prerequisites</b>",
+              "ROS (Robot Operating System): Install ROS on the system that controls the robotic arm. You can find installation instructions on the ROS official website.",
+              "rosbridge_suite: Install the rosbridge_suite package to enable communication between ROS and the web GUI. You can install it by following the instructions given below or in the rosbridge_suite GitHub repository."
+
+            ]
+          }
+        ]
+      },
+      {
+        "title": "LINE FOLLOWER",
+        "description": "ROS | OpenCV | Gazebo | Robot-Perception",
+        "bgImage": "/project-thumbnails/lfr.png",
+        "sections": [
+          {
+            "title": "LINE FOLLOWER",
+            "video": "https://www.youtube.com/watch?v=n6CDiC6EjrY",
+            "content": [
+                "This project is a simulation of a Line Following Robot based on Image Processing using real time camera view from the robot. The sim uses our in-house mobile base platform, MR ROBOT. Color Detection & Masking techniques are used to turn the colored camera feed into a black and white image to find the midpoint of the line and follow along with it. It also uses a Proportional Controller for controlling the robot’s motion. The tech stacks used in this project include Python, ROS, OpenCV and Gazebo",
+                "Github : https://github.com/atom-robotics-lab/line_follower"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Aruco Navigation",
+        "description": "ROS | OpenCV | Gazebo | Robot-Perception",
+        "bgImage": "/aruco.png",
+        "sections": [
+          {
+            "title": "Aruco Navigation",
+            "video": "https://www.youtube.com/watch?v=mPa3XGROl2Y&t=32s",
+            "content": [
+                "Presenting to you another one of our Computer Vision-based projects: Aruco Navigation This project aims to make our self-made mobile base MR_ROBOT navigate through the simulation world using Aruco Markers.",
+                "Aruco Markers are binary square markers used for camera pose estimation. Each aruco marker has a unique ID, which can be mapped to the direction in which the bot should travel after detecting it.",
+                "This project makes use of ROS, Python, Gazebo and OpenCV. It also uses a Proportional Controller.",
+                "Github : https://github.com/atom-robotics-lab/aruco_navigation"
+            ]
+          }
+        ]
+    },
+    {
+        "title": "Object Follower",
+        "description": "ROS | OpenCV | Gazebo | Robot-Perception",
+        "bgImage": "of.png",
+        "sections": [
+          {
+            "title": "Object Follower",
+            "video": "https://www.youtube.com/watch?v=hqBhVLi1JOk&t=54s",
+            "content": [
+                "The Object Follower utilizes our in-house mobile base platform, MR Robot and aims to make the robot follow a particular object while also maintaining a safe distance from it. We have also implemented a proportional controller, while also making use of ROS Noetic, Python and OpenCV.",
+                "Github : https://github.com/atom-robotics-lab/object_follower"
+            ]
+          }
+        ]
+    },
+    {
+      "title": "Hexapod",
+      "description": "ROS | OpenCV | Gazebo | Robot-Perception",
+      "bgImage": "'/project-thumbnails/hexapod.png'",
+      "sections": [
+        {
+      "title":"OVERVIEW",
+       "image": "/project-thumbnails/hexapod3.png",
+      "content": [
+          "This project develops a six-legged (hexapod) AMR that uses a Tripod Gait and Inverse Kinematics (IK) for smooth, stable walking. Each leg has three degrees of freedom for precise 3D foot placement. IK ensures realistic, efficient leg movements, maintaining stability during turns and direction changes."
+
+       
+      ]
+    },
+    {
+      "title":"Hexapod Functioning" ,
+      "video": "https://www.youtube.com/watch?v=xpnilti2U3U",
+      "content": [""]
+    },
+    {
+      "title":"FEATURES",
+      "content": [
+         "<b> 1.Custom Inverse Kinematics: </b> Custom inverse kinematics were developed specifically for this hexapod robot to precisely control each leg's movement. This ensures smooth, stable walking, even across challenging terrain.",
+         "<b> 2.Visual-Inertial SLAM for Navigation: </b> A Visual-Inertial SLAM system which combines camera and IMU data to map the environment in reak time, enabling the robot to localize itself, plan paths and avoid obstacles without depending on GPS.",
+         "<b> 3. 3-DOF Hexapod Mobility: </b> Three independent joints in each leg allows precise control over foot position in 3-D space. This ensures smooth walking, easy climbing over obstactles and adjusting to rough terrains."
+      ]
+    }
+      ]
+  },
+  {
+    "title": "Omnidrive AMR",
+    "description": "ROS | SLAM | Gazebo | Rviz",
+    "bgImage": "'/project-thumbnails/omnidrive.png'",
+    "sections": [
+       {
+      "title":"OVERVIEW",
+      "content": [
+          " OmniDrive is an omnidirectional robot designed for smooth and precise movement in all directions. It uses a setup of omniwheels, which allows it to slide sideways, rotate in place, and move through tight spaces without needing to turn its body. This makes it well-suited for indoor environments like warehouses, where space is limited and quick direction changes are important. The robot can do indoor navigation and is integrated with ROS 2, making it ready for tasks like path planning and localization."
+      ]
+    },
+    {
+        "title": "OMNIDIRVE SIMULATION",
+        "video": "https://youtube.com/watch?v=81slZ8pKs7g",
+        "content": [""]
+    },
+    
+    {
+      "title":"FEATURES",
+      "content": [
+         "<b> 1.8-Axis Mobility: </b>The robot can move in any direction — laterally, diagonally, and rotationally — without the need for U-turns. This allows it to navigate smoothly in tight and complex spaces.",
+         "<b> 2.LiDar-Based Environment Mapping: </b>  Using a LiDAR sensor, the robot constantly scans its surroundings to generate an accurate 3D map. This enables awareness of nearby objects and spatial understanding for smarter decisions.",
+         "<b> 3.Autonomous Indoor Navigation: </b>  Designed specifically for indoor environments, the robot consistently follows its path even through varied layouts. It adapts to different structural arrangements without requiring external input.",
+         "<b> 4.Real-Time Localization System: </b> By fusing odometry with sensor data, the robot accurately tracks its position at every moment. This ensures it knows exactly where it is, even while in motion or turning.",
+         "<b> 5.Obstacle Avoidance: </b>The robot detects and avoids objects. It actively adjusts its path in real time to prevent collisions and maintain uninterrupted movement."
+
+
+       
+      ]
+    }
+  ]
+},
+{
+  "title": "Lab Server",
+  "description": "Python | ESP32 | MongoDB | Flask | HTTP",
+  "bgImage": "'/project-thumbnails/labserver2.jpeg'",
+  "sections": [
+     {
+    "title":"OVERVIEW",
+    "content": [
+        "Lab-Server is an RFID-based security system designed to control and monitor access to a laboratory. It uses an ESP32 DevKit V2 as the main controller to read RFID tags and verify user authorization. When an RFID card is scanned, the ESP32 communicates with a Flask-based backend server, hosted on PythonAnywhere, to validate the UID. "
+    ]
+  },
+  {
+    "title":"Lab server functioning",
+    "video": "https://www.youtube.com/watch?v=FlggSwEH27s",
+    "content": [""]
+  },
+  {
+    "title":"FEATURES",
+    "content": [
+       "<b> 1. RFID-Based Cloud Authentication: </b> Securely verifies users with RFID cards using the ESP32 DevKit V2, with real-time UID validation through a Flask server hosted on PythonAnywhere.",
+       "<b> 2. Comprehensive Access Logging: </b>  All authorized and unauthorized attempts are automatically logged to a MongoDB database.",
+       "<b> 3.Battery Backup Ready: </b>  Equipped with a Battery Management System (BMS) and supports 12V external battery for uninterrupted operation.",
+       "<b> 4.Remote Smartphone Control: </b>  Enables wireless monitoring and control directly from a mobile device.",
+       "<b> 5.Custom-designed PCB : </b>The system features a custom designed PCB for efficient and reliable hardware integration."
+
+
+     
+    ]
+  }
+]
+},
+{
+  "title": "Perception Pipeline",
+  "description": "ROS | OpenCV | Gazebo | Robot-Perception",
+  "bgImage": "/project-thumbnails/perception.png",
+  "sections": [
+    {
+      "title":"OVERVIEW",
+      "content": [
+          "Perception Pipeline is a modular and plug-and-play ROS 2-based solution for robotics perception tasks. It provides a collection of ready-to-use components that handle everything from image pre-processing to object detection and segmentation. Designed for flexibility, the system allows quick setup and iteration—whether you're building something experimental or preparing for deployment. Each module can be swapped or stacked like LEGO, minimizing rework and speeding up development."
+
+       
+      ]
+    },
+    {
+      "video":"https://www.youtube.com/watch?v=F-IA7CG5rak"
+    },
+    {
+      "title":"FEATURES",
+      "content": [
+         "<b> 1.ROS 2 Native: </b> Built from the ground up on ROS 2, making it compatible with modern robotics stacks.",
+         "<b> 2.Plug-and-Play Components: </b> The modular design allows you to add, remove, or update components easily, enabling fast prototyping and smooth development cycles.",
+         "<b> 3.Open Source: </b> A state-of-the-art open source project that’s actively maintained and structured for long-term use.",
+         "<b> 4.Containerized Setup: </b> The entire system runs in Docker, which means consistent behavior across machines—no more dependency hell."
+
+
+       
+      ]
+    }
+  ]
+}
+]
+
+  

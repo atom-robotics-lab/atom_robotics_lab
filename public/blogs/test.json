@@ -1,0 +1,155 @@
+[
+  {
+    "date": "June 16, 2024",
+    "author": "Kiriti Nain",
+    "sections": [
+      {
+        "title": "ATOM's Trip To IIT Roorkee",
+        "image": "/blogs/Roorkee/img1.png",
+        "content": "What’s better than spontaneously registering for a well-known Robotics tournament and thriving until the very last minute to be done with the making of our robot for it? That adrenaline rush is just what each of us craves. And that’s precisely how we, A.T.O.M. Labs, started this journey. The A.T.O.M. Labs recently attended Cognizance, IIT Roorkee’s prestigious annual technical festival, on a journey fuelled by creativity and fellowship. Our team found itself in the center of a flurry of robotics challenges, enthralling concerts, and exhilarating gaming tournaments as the best technical brains in the country converged. One of the best things was getting to work on different robotics projects and thinking out of the box to make every approach better than before."
+      },
+      {
+        "title": "Let’s explore all these exciting projects in little depth now!",
+        "image": "/blogs/Roorkee/img2.jpg",
+        "content": "The first one being “ZenGrip” in which we were asked to pick-and-place obstacles, traversing the rough lanes. And in the heat of a gripping robotics challenge, our team devised a formidable solution: a manually controlled bot equipped with a state-of-the-art 3D-printed gripper, two powerful motors, Arduino Nano, and motor drivers. Through innovation and collaboration, we overcame hurdles, and honed our design."
+      },
+      {
+        "title": "How cool it would be to see mini mouse-like robots navigate through a maze!",
+        "image": "/blogs/Roorkee/img3.jpg",
+        "content": "while trying it’s best to not hit walls and that’s exactly how the problem statement of “Nano Navigators” came to existence. Tasked with navigating intricate mazes in record time while minimizing collisions, we delved into an arena where every turn, every twist, presented a new puzzle to solve. Armed with a formidable array of sensors and components, including three ultrasonic sensors, four IR sensors, Arduino Uno, two motors, and a motor driver, our quest for perfection began. Despite initial setbacks with Flood Fill algorithm implementation, we pivoted to a left wall following strategy, harnessing the power of precise sensor data to guide our bot through labyrinthine corridors. With a chassis crafted from 3D-printed parts and acrylic sheet, our creation embodied resilience and agility, weaving through the maze with grace and precision."
+      },
+      {
+        "title": "Robotics in Sports",
+        "image": "/blogs/Roorkee/img4.jpg",
+        "content": "But the most fun part would be integrating robotics into sports, and seeing robots face each other one on one, just like humans, Tug of war inspired “Plasma Pull” ..."
+      },
+      {
+        "title": "At Cognizance, our team embraced the spirit of creativity, showcasing our robotics expertise across various competitions.",
+        "content": "While we excelled in our chosen events, the diverse challenges pushed us to innovate and explore new realms of robotic technology. Beyond the technical arena, the event offered a vibrant tapestry of experiences, from electrifying concerts, be it “Sounds of India” by Amit Trivedi or EDM event by Ravator. Thrilling gaming challenges, to fostering camaraderie and collaboration among team members. Reflecting on our time at Cognizance, we recognize the invaluable personal and professional growth fostered by shared experiences and mentorship. Our journey underscores the transformative power of creativity and collaboration, inspiring us to continue pushing the boundaries of robotics and embracing new opportunities for innovation."
+      }
+    ]
+  },
+  {
+    "date": "February 29, 2024",
+    "author": "Kiriti Nain",
+    "sections": [
+      {
+        "title": "Sounds Cool, Right? Exploring Clean Energy Frontiers!",
+        "image": "/blogs/StemAward/img1.jpg",
+        "content": "In the pursuit of a sustainable future, the importance of clean and green energy solutions cannot be overstated. On the 16th of October, the Dr. Ambedkar International Centre became a nexus of ideas, innovation, and collaboration as it hosted the STEM Innovation, organized by the All India Council for Robotics and Automation (AICRA). With a focus on promoting hydrogen energy and fostering sustainable practices, the event brought together thought leaders, industry experts, and aspiring innovators under one roof."
+      },
+      {
+        "title": "Highlight of the Summit",
+        "image": "/blogs/StemAward/img2.jpg",
+        "content": "Keynote speakers, including the Chandrayan 3 project lead lady and Mr. Nitin Gadkari, shared their perspectives on the importance of transitioning towards renewable energy sources and the role of innovation in driving this transition forward. Their visionary insights set the stage for a day filled with exploration, discovery, and collaboration."
+      },
+      {
+        "title": "Showcasing Innovation",
+        "image": "/blogs/StemAward/img3.jpg",
+        "content": "Central to the symposium were the innovative projects presented by participants, each offering a glimpse into the future of clean energy technologies. Among these projects were two standout innovations from our team: “Mr. Robot” and the CNC project. “Mr. Robot,” conceived and developed by team members Alok and Krish, stole the spotlight with its autonomous capabilities and potential applications across various industries. From streamlining manufacturing processes to enhancing efficiency in logistics, Mr. Robot showcased the transformative power of automation in advancing sustainability goals. Equally impressive was the CNC project, led by Saheem, Priyanshu, and Parth, which demonstrated precision engineering at its finest. With its advanced capabilities, the CNC project promised to revolutionize manufacturing practices, offering a more sustainable alternative to traditional machining methods."
+      },
+      {
+        "title": "Recognition and Appreciation",
+        "image": "/blogs/StemAward/img4.jpg",
+        "content": "In a moment of recognition, AICRA honored our team with a memento, acknowledging our dedication to innovation and sustainability. A symbolic memento, cherished by Krish, Jayesh, Alok, Saheem, Hriday, and Divyansh, embodies the unity and collaboration driving Project CNC, fostering shared memories and camaraderie amidst the team’s diverse talents and collective ambition. This gesture not only served as a testament to our team’s efforts but also underscored the importance of collaborative initiatives in driving positive change."
+      },
+      {
+        "title": "Networking and Collaboration",
+        "image": "/blogs/StemAward/img5.jpeg",
+        "content": "Beyond the presentations and discussions, the symposium provided ample opportunities for networking and collaboration. Engaging with fellow innovators, industry experts, and potential collaborators enriched the experience, fostering meaningful connections and laying the groundwork for future partnerships."
+      },
+      {
+        "title": "Conclusion",
+        "content": "As the curtains drew on AICRA’s STEM Innovation at the Dr. Ambedkar International Centre, participants departed with a renewed sense of purpose and determination. The event served as a catalyst for innovation, inspiring attendees to redouble their efforts in advancing clean and green energy solutions. As we look towards the future, let us carry forward the lessons learned and the connections made, leveraging them to drive meaningful change in the pursuit of a sustainable world. With continued collaboration and innovation, we can overcome the challenges ahead and build a brighter, greener future for generations to come."
+      }
+    ]
+  },
+  {
+    "date": "April 29, 2023",
+    "author": "Abhishek Garg",
+    "sections": [
+      {
+        "title": "A.T.O.M's Experience At ROS Developers Meetup",
+        "image": "/blogs/Rdm/img1.jpg",
+        "content": "Hey Robo geeks, here is another blog about A.T.O.M's amazing experiences. On 29th April 2023, A.T.O.M members attended the ROS Developers Meet-up at the R&I park, Indian Institute of Technology Delhi which was hosted by Acceleration Robotics in collaboration with Peer Robotics. The event was attended by over 100 people from various backgrounds and domains, including students, researchers, professionals, and enthusiasts. The meet-up was aimed at bringing together the ROS community in India and fostering knowledge sharing and collaboration among them."
+      },
+      {
+        "title": "Sounds Cool, Right? But what is a developers meetup?",
+        "image": "/blogs/Rdm/img2.jpg",
+        "content": "At the heart of the robotics community lies a profound appreciation for attending robotics events and meet-ups. These gatherings act as catalysts for growth, fostering an environment of learning and collaboration. By participating in such events, individuals and teams like A.T.O.M. Robotics have the unique opportunity to connect with industry experts, gaining insights into the latest advancements in the field. The ROS Developers meet-up at IIT Delhi perfectly embodied this spirit, attracting renowned speakers who brought their expertise to the forefront."
+      },
+      {
+        "title": "What happened at the meetup?",
+        "image": "/blogs/Rdm/img3.png",
+        "content": "The event started with an inaugural address by Professor SK Saha, Project Director of IHFC, in which he told about their vision and the various robotics activities happening at IIT Delhi. Then, following this, Prateek Nagras, CEO of Acceleration Robotics, introduced the audience to ROS 2 and its growing industrial acceptance. Alok Kumar, CoFounder of A.T.O.M. Labs, shared our own experiences with ROS and robotics applications. The event also featured various live demonstrations and hands-on sessions where attendees could interact with robots and explore their functionalities."
+      },
+      {
+        "title": "Wrap-up",
+        "image": "/blogs/Rdm/img4.png",
+        "content": "Overall, the ROS Developers Meet-up was an enriching experience for all attendees, including our team. It provided valuable insights into the current state of robotics technology and the future directions of ROS. The event also facilitated networking opportunities, allowing us to connect with other professionals and enthusiasts in the field."
+      }
+    ]
+  },
+  {
+    "date": "March 28, 2022",
+    "author": "Jasmeet Singh",
+    "sections": [
+      {
+        "title": "A.T.O.M's Day Out at Hack-BVICAM'22",
+        "image": "/blogs/Bvicam/img1.jpg",
+        "content": "On 11th March 2022, we participated in HACK-BVICAM distributed in 3 teams led by 3 of our admins Naman Malik, Jasmeet Singh and Manav Sethi. The competition had 5 positions on the podium, out of which our teams bagged 3 positions! We won a total of 15k cash prize, 3 smartphones & many goodies leading to a total prize pool of around 50k!\n\nThe hackathon had many tech-related themes like AI/ML, Future Mobility, IoT, FinTech etc. Out of these tracks, our teams developed real-world projects related to Future Mobility, IoT & Smart City tracks."
+      },
+      {
+        "title": "Okay, That’s great…..But what is a Hackathon anyway?",
+        "image": "/blogs/Bvicam/img2.jpg",
+        "content": "If you are reading this blog, then either you know what hackathons are or you are eager to find out. In any case, let me just brief you about ‘Hackathons’.\n\nHackathons are generally overnight events in which makers and engineers get together as teams to create a solution from scratch for some real-world problems. Some hackathons target very generic industries like Healthcare, Education, FinTech etc. while others target really specific problem statements like ‘Building an Autonomous Solution for Counting Large Steel Pipes for Inventory Management.\n\nParticipants in a 24 - 36 hour period of the hackathon, not only brainstorm over the technical aspects of a project but also over the real-world implementation of their solution as a business. Hackathons are a great opportunity for getting yourself acquainted with new technologies and new people. So even if you don’t complete your project in time, you still got a ton of networking to do which is equally helpful.\n\nSo basically the benefits of a hackathon can be summarized as follows:\n\n- Lots of challenging problems solving and brainstorming\n- Working on new technologies and stacks\n- Lots and Lots of Networking\n- A whole day of fun and free food (we all love that, don’t we?)\n- Tons and Tons of swags like T-shirts, stickers, badges etc. (We all like to wear those t-shirts as badges of honor 😎)\n- And do you know the best part? It’s that well-earned sleep that comes after spending a whole sleepless 24 hours working 😴.\n\nIf you want to know more about hackathons, I recommend reading Advice to Students for Hackathons by Abhas Abhinav."
+      },
+      {
+        "title": "The Projects we made",
+        "image": "/blogs/Bvicam/img3.jpg",
+        "content": "Coal Miner Monitoring System: Team RUNTIME_TERROR (First Prize)\n\nTeam RUNTIME_TERROR won the first position with a cash prize of 10k and a smartphone for the best performing member. The team developed a hardware-based project for monitoring the working conditions of workers in hazardous conditions like coal mines. The project consisted of a smart wearable device (image below), which could be attached to the belt of the worker, like a holster. This piece of hardware contained a plethora of sensors like accelerometer, smoke sensor, humidity sensor and temperature sensor. Long-range RF transceiver modules were used to transfer this data to a central hub that was connected to the internet. This data was then visualized on a web-based dashboard, where an admin could monitor sensory data for each worker. The real-time sensor data could be used to detect emergency conditions like fall detection, gas leak etc.\n\nTech Stack Used in the Project:\n\n- Esp32 connected to the internet for a central hub\n- Arduino Uno for each wearable Devices\n- DHT11 temperature Sensor, MPU6050 Accelerometer, MQ2 Gas Sensor\n- HC-12 Transceiver modules with helical antenna for Long Range RF communication\n- Grafana for Data visualization Dashboard\n- MQTT for real-time communication between Central hub and Dashboard\n\nThe project source code can be found on our GitHub page: https://github.com/atom-robotics-lab/BVPICAM-RUNTIME_TERROR"
+      },
+      {
+        "title": "Holistic Traffic Management System: Team Atom (Second Prize)",
+        "image": "/blogs/Bvicam/img4.jpg",
+        "content": "Team Atom bagged the second position with a cash prize of 5k and a smartphone for the best-performing member. This team also developed a hardware-based project for a holistic traffic management related to the theme ‘Smart Cities. The project had multiple IR sensors embedded on the road to determine the density of traffic waiting on a particular signal. Depending on the density of vehicles, the traffic lights were controlled to relieve the traffic on the congested side. Apart from this, an RFID receiver was also installed which detected a passing emergency vehicle such as an ambulance or police car and appropriately assigned priority to a particular traffic light to go green.\n\nTech Stacks used in the Project:\n\n- Multiple IR Proximity sensors to detect the amount of traffic.\n- Micro servo to create a barrier\n- RGB led to creating traffic light\n- RC522 RFID sensor module and RFID card to represent an emergency vehicle\n- ESP32 module to publish traffic data over the internet\n- Grafana for data visualization dashboard\n\nThe project source code can be found on our GitHub page: https://github.com/atom-robotics-lab/holistic-traffic-management-system-"
+      },
+      {
+        "title": "Project Know-Parking: Team Galat Family (Runner’s Up)",
+        "image": "/blogs/Bvicam/img5.jpg",
+        "content": "Team Galat Family (yep that was our team’s name ¯\\_(ツ)_/¯) received the runner’s position with lots of swags and a smartphone for the best performing member. Their project, Know-Parking, was based on making a Smart Parking System that allows you to Book Parking Spots in public spaces just like you book seats for a movie show. The project used Computer Vision on live video stream from CCTV cameras to detect empty parking spots instead of installing hardware to reduce implementation and management costs. The parking layout was accordingly updated on a web interface. The web interface allowed the user to book a spot which was then blocked by a barrier in real-time. All this was demonstrated to the judges using a Simulation for better understanding. The project used ROS which is the same stack used in robots. This provided us with many interesting future aspects like indoor navigation etc.\n\nTech Stacks Used in the Project:\n\n- OpenCV and Python for Computer Vision\n- HTML, CSS and JavaScript for Web Interface\n- ROS (Robot Operating System) for the whole distributed system\n- Gazebo Simulator for simulating the parking space and demonstrating the OpenCV Algorithm\n- RosJS library for connecting web interface to ROS Master\n\nThe project source code can be found on our GitHub page: https://github.com/atom-robotics-lab/Know_Parking"
+      },
+      {
+        "title": "All in all, the hackathon was a great learning and bonding experience",
+        "content": "The hackathon was a great learning and bonding experience for the whole society. We met & interacted with many people with different backgrounds and ideas. It was great to attend an offline event after a long period of isolation due to the COVID19 pandemic!"
+      }
+      
+    ]
+  },
+  {
+    "date": "February 25, 2024",
+    "author": "Kiriti Nain",
+    "sections": [
+      {
+        "title": "What’s Behind MR. ROBOT?",
+        "image": "/blogs/MrR/img1.jpeg",
+        "content": "Let’s think of something that people have made in their likeness—I’m talking about robots. We get excited when we talk about robots, but there’s also a healthy dose of curiosity, which often results in the development of more likely-to-be human robots. That is exactly the reason why we at A.T.O.M. came up with the idea of fabrication of “MR Robot”. Fascinating right? Let’s dive more into “MR Robot” then."
+      },
+      {
+        "title": "Hardware Working",
+        "image": "/blogs/MrR/img2.jpeg",
+        "content": "MR Robot is equipped with two encoder motors, an ESP32 microcontroller, a Raspberry Pi 4, an IMU, a LiDAR, a motor driver, and a 5V buck converter. The robot is designed to calculate the movement of the motors and send it to the microcontroller. The data is then published to a topic and used to calculate the odometry. The LiDAR and IMU are linked to the Raspberry Pi 4, and the motor driver is used to form an H-bridge for differential drive.\n\n- **Encoder Motors**: MR Robot is equipped with two encoder motors. The encoder motor calculates the movement of the motor and sends it to the microcontroller. This data is then used to calculate the odometry.\n\n- **ESP32 Microcontroller**: It receives data from the encoder motors and processes it. The microcontroller then publishes the data to a topic that is used to calculate the odometry.\n\n- **Raspberry Pi 4**: The Raspberry Pi 4 is used to link the LiDAR and IMU. The LiDAR and IMU are connected to the Raspberry Pi 4, which processes the data from the sensors.\n\n- **IMU**: The IMU is used to measure the orientation, acceleration, and angular velocity of the robot. The data from the IMU is processed by the Raspberry Pi 4 using a Kalman filter.\n\n- **LiDAR X2L Model**: A type of LiDAR sensor used to detect the distance and angle of objects in the environment.\n\n- **Motor Driver**: Used to form an H-bridge for differential drive and control the speed and direction of the motors.\n\n- **5V Buck Converter**: Converts the voltage from the battery to 5V.\n\nMR Robot stands as a formidable and adaptable platform, integrating advanced sensors and components for precise navigation."
+      },
+      {
+        "title": "Software Working",
+        "content": "MR Robot employs the ROS Serial protocol for seamless communication with its components. It relies on Twist to PWM for precise motor control and ESP_Diff_TF for accurate odometry calculation. Additionally, equipped with a LiDAR sensor interfaced with the Raspberry Pi 4, the robot harnesses its capabilities for robust mapping and navigation tasks.\n\n- **ROS Serial Protocol**: Used for communication with the robot’s components, such as the microcontroller and motor driver.\n\n- **Twist to PWM**: Converts Twist messages to PWM signals for motor control.\n\n- **ESP_Diff_TF**: Calculates the robot’s odometry using encoder data.\n\n- **AMCL**: Localizes the robot within a map using sensor data.\n\n- **Move Base**: Manages robot navigation to a goal location using a global and local planner.\n\n- **LiDAR Data**: Used for mapping and navigation.\n\n- **GMapping**: SLAM algorithm for creating a map of the environment.\n\nMR Robot is equipped with teleoperation capabilities, allowing manual control via a joystick interface. The COST map, or Coordinate System map, enables efficient navigation through the robot’s surroundings. ROSJS provides a seamless interface for remote control via web browsers. MR Robot’s neo pixel lights enhance its visual presence, with mood modulation features for interactive experiences."
+      },
+      {
+        "title": "Summarizing",
+        "content": "MR Robot represents the cutting edge of technological advancement, with the ability to navigate complex environments with precision, interact seamlessly with users via intuitive controls, and exude personality through mood modulation and dynamic lighting. The combination of technologies like G-mapping, joystick control, neo pixel lighting, and SLAM has transformed autonomous mobile robots, offering a wide range of applications across industries. As innovation continues, MR Robot is poised for even more exciting advancements."
+      }
+    ],
+    "sourceLinks": "https://github.com/atom-robotics-lab/atom-robotics-lab.github.io/tree/main/content"
+}
+
+]
