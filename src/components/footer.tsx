@@ -41,6 +41,9 @@ const Footer = () => {
                 <Link href="/about" color="inherit" underline="hover" sx={{ display: 'block', marginBottom: '0.5rem' }}>
                   About
                 </Link>
+                <Link href="/resources" color="inherit" underline="hover" sx={{ display: 'block', marginBottom: '0.5rem' }}>
+                  Resources
+                </Link>
                 <Link href="/projects" color="inherit" underline="hover" sx={{ display: 'block', marginBottom: '0.5rem' }}>
                   Projects
                 </Link>
