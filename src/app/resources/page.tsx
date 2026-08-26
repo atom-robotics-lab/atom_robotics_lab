@@ -17,6 +17,7 @@ import {
   BookOpen,
   ChevronRight,
   Layers3,
+  Terminal,
 } from "lucide-react";
 
 const poppins = Poppins({
@@ -27,12 +28,23 @@ const poppins = Poppins({
 const resources = [
   {
     id: "fusion-360",
+    href: "/resources/fusion-360",
     title: "Getting Fusion 360 Education Edition",
     description:
       "A step-by-step guide for students to access Autodesk Fusion 360 Education, verify their student eligibility, and download the software.",
     category: "CAD",
     icon: Layers3,
     status: "Beginner",
+  },
+  {
+    id: "linux-dual-boot",
+    href: "/resources/linux-dual-boot",
+    title: "Dual Boot Linux with Windows",
+    description:
+      "A practical guide to preparing your laptop, creating a bootable USB, and installing Linux alongside Windows.",
+    category: "Linux",
+    icon: Terminal,
+    status: "Intermediate",
   },
 ];
 
@@ -45,9 +57,12 @@ const categories = [
     id: "CAD",
     label: "CAD",
   },
+  {
+    id: "Linux",
+    label: "Linux",
+  },
   // Future:
   // { id: "electronics", label: "Electronics" },
-  // { id: "linux", label: "Linux" },
   // { id: "ros", label: "ROS & Robotics" },
 ];
 
@@ -389,7 +404,7 @@ const ResourcesPage = () => {
 
                             <Button
                               component={Link}
-                              href="/resources/fusion-360"
+                              href={resource.href}
                               endIcon={<ChevronRight size={16} />}
                               sx={{
                                 mt: 2,
