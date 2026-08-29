@@ -236,6 +236,79 @@ const KicadGuide = () => (
         })}
       </Stack>
 
+      <Divider sx={{ borderColor: "rgba(148,163,184,0.15)", my: 6 }} />
+
+      <Paper
+        elevation={0}
+        sx={{
+          background:
+            "linear-gradient(145deg, rgba(15,23,42,0.95), rgba(15,23,42,0.72))",
+          border: "1px solid rgba(96,165,250,0.16)",
+          borderRadius: 3,
+          p: { xs: 2.5, md: 3 },
+        }}
+      >
+        <Typography
+          className={poppins.className}
+          sx={{
+            color: "#f8fafc",
+            fontWeight: 600,
+            fontSize: "1.1rem",
+            mb: 1,
+          }}
+        >
+          See a video demonstration
+        </Typography>
+        <Typography sx={{ color: "#cbd5e1", lineHeight: 1.8, mb: 2.5 }}>
+          Watch this video for a visual walkthrough of the KiCAD installation and setup process.
+        </Typography>
+        <Box
+          sx={{
+            position: "relative",
+            width: "100%",
+            aspectRatio: "16 / 9",
+            overflow: "hidden",
+            borderRadius: 2,
+            background: "#0f172a",
+          }}
+        >
+          <Box
+            component="iframe"
+            src="https://www.youtube.com/embed/XiLnHYSrNHw"
+            title="KiCAD setup and installation demonstration"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            sx={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
+              height: "100%",
+              border: 0,
+            }}
+          />
+        </Box>
+        <Button
+          component="a"
+          href="https://youtu.be/XiLnHYSrNHw"
+          target="_blank"
+          rel="noreferrer"
+          startIcon={<ExternalLink size={15} />}
+          sx={{
+            color: "#60a5fa",
+            textTransform: "none",
+            fontWeight: 600,
+            px: 0,
+            mt: 1.5,
+            "&:hover": {
+              background: "transparent",
+              color: "#bfdbfe",
+            },
+          }}
+        >
+          Open video on YouTube
+        </Button>
+      </Paper>
+
     </Container>
   </Box>
 );
