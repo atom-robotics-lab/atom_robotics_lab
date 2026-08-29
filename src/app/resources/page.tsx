@@ -18,6 +18,7 @@ import {
   ChevronRight,
   Layers3,
   Terminal,
+  Cable,
 } from "lucide-react";
 
 const poppins = Poppins({
@@ -46,6 +47,16 @@ const resources = [
     icon: Terminal,
     status: "Intermediate",
   },
+  {
+    id: "KiCAD Starter Guide",
+    href: "/resources/kicad-guide",
+    title: "Setup and start using KiCAD",
+    description:
+      "A starter guide to setup KiCAD on your ubuntu 24.04 and start making your first prototype PCB.",
+    category: "Electronics",
+    icon: Cable,
+    status: "Beginner",
+  },
 ];
 
 const categories = [
@@ -60,6 +71,10 @@ const categories = [
   {
     id: "Linux",
     label: "Linux",
+  },
+  {
+    id: "Electronics",
+    label: "Electronics",
   },
   // Future:
   // { id: "electronics", label: "Electronics" },
