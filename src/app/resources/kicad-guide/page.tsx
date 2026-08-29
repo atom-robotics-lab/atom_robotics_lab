@@ -31,7 +31,19 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 
-const steps = [
+interface Step {
+  title: string;
+  description: string;
+  icon: typeof Laptop;
+  actions?: Array<{ href: string; label: string }>;
+  terminal?: string;
+  terminal1?: string;
+  terminal2?: string;
+  terminal3?: string;
+  terminal4?: string;
+}
+
+const steps: Step[] = [
   {
     title: "Open the Linux Terminal",
     description:
@@ -211,10 +223,10 @@ const KicadGuide = () => (
                   )}
                   {step.terminal && (
                     <>
-                      <CodeBlock code={step.terminal1}/>
-                      <CodeBlock code={step.terminal2}/>
-                      <CodeBlock code={step.terminal3}/>
-                      <CodeBlock code={step.terminal4}/>
+                      <CodeBlock code={step.terminal1!}/>
+                      <CodeBlock code={step.terminal2!}/>
+                      <CodeBlock code={step.terminal3!}/>
+                      <CodeBlock code={step.terminal4!}/>
                     </>
                   )}
                 </Box>
