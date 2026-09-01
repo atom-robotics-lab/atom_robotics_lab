@@ -277,8 +277,8 @@ const KicadGuide = () => (
         >
           <Box
             component="iframe"
-            src="https://www.youtube.com/embed/XiLnHYSrNHw"
-            title="KiCAD setup and installation demonstration"
+            src="https://www.youtube.com/embed/videoseries?list=PLimTcXK6kSUzTT5V02NmA9vwVjA3je0_Z"
+            title="KiCAD setup playlist demonstration"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             sx={{
@@ -292,7 +292,7 @@ const KicadGuide = () => (
         </Box>
         <Button
           component="a"
-          href="https://youtu.be/XiLnHYSrNHw"
+          href="https://www.youtube.com/playlist?list=PLimTcXK6kSUzTT5V02NmA9vwVjA3je0_Z"
           target="_blank"
           rel="noreferrer"
           startIcon={<ExternalLink size={15} />}
@@ -308,7 +308,7 @@ const KicadGuide = () => (
             },
           }}
         >
-          Open video on YouTube
+          Open KiCAD playlist on YouTube
         </Button>
       </Paper>
 

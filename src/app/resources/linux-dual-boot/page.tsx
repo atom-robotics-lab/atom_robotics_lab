@@ -38,8 +38,8 @@ const steps = [
     icon: Usb,
     actions: [
       {
-        href: "https://releases.ubuntu.com/noble/",
-        label: "Download Ubuntu",
+        href: "https://releases.ubuntu.com/jammy/",
+        label: "Download Ubuntu 22.04 LTS",
       },
       {
         href: "https://rufus.ie/",
@@ -318,7 +318,7 @@ const LinuxDualBootPage = () => (
         >
           <Box
             component="iframe"
-            src="https://www.youtube.com/embed/alFosqQ1ang"
+            src="https://www.youtube.com/embed/HmqvTsDmyiE"
             title="Ubuntu dual-boot installation demonstration"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -333,7 +333,7 @@ const LinuxDualBootPage = () => (
         </Box>
         <Button
           component="a"
-          href="https://youtu.be/alFosqQ1ang"
+          href="https://youtu.be/HmqvTsDmyiE"
           target="_blank"
           rel="noreferrer"
           startIcon={<ExternalLink size={15} />}
