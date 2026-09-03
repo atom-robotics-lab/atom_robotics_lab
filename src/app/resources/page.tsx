@@ -50,9 +50,9 @@ const resources = [
   {
     id: "KiCAD Starter Guide",
     href: "/resources/kicad-guide",
-    title: "Setup KiCAD on Ubuntu 24.04",
+    title: "Setup KiCAD on Ubuntu 22.04",
     description:
-      "A starter guide to set up KiCAD on Ubuntu 24.04 and start making your first prototype PCB.",
+      "A starter guide to set up KiCAD on Ubuntu 22.04 and start making your first prototype PCB.",
     category: "Electronics",
     icon: Cable,
     status: "Beginner",
