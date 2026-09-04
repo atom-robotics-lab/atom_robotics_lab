@@ -115,6 +115,30 @@ const About = () => {
               linkedinLink: "https://www.linkedin.com/in/akshat-sharma-166932161/",
             },
             {
+              circleImageSrc: "/images/kirmada.png",
+              name: "YASHVARDHAN KUMAR ( @Kirmada )",
+              description: "ADMIN | Electronics | IOT | CAD  ",
+              instagramLink: "https://www.instagram.com/yash_vardhan2410/",
+              githubLink: " https://github.com/Y1shv2r",
+              linkedinLink: "https://www.linkedin.com/in/yash-vardhan-kumar-26b08822"
+            },
+            {
+              circleImageSrc: "/images/ADITYA_dev.jpg",
+              name: "ADITYA DEV SINGH ( @deviant)",
+              description: "ADMIN | ROS2 | IOT ",
+              instagramLink: "https://www.instagram.com/dev_deviant/",
+              githubLink: " https://github.com/iAdityaDev",
+              linkedinLink: "https://www.linkedin.com/in/iadityadev"
+            },
+            {
+              circleImageSrc: "/images/SHIVAM.png",
+              name: "SHIVAM GUPTA ( @bhaikilaundry )",
+              description: "ADMIN | Electronics | ROS2 ",
+              instagramLink: "https://www.instagram.com/shivam_sensei/",
+              githubLink: "https://github.com/shivam-sensei",
+              linkedinLink: "https://www.linkedin.com/in/shivam-gupta-ab609a218/"
+            },
+            {
               circleImageSrc: "/images/aastha.png",
               name: "AASTHA VERMA (@pixelpuff)",
               description: "CORE | AI/ML | ROS | IOT",
@@ -134,7 +158,7 @@ const About = () => {
             {
               circleImageSrc: "/images/mehak.png",
               name: "MEHAK OBEROI (@goofball)",
-              description: "CORE | ROS | IOT",
+              description: "ROS | IOT",
               instagramLink: "https://instagram.com/_mehakoberoi_",
               githubLink: "https://github.com/mehakoberoii",
               linkedinLink: "https://www.linkedin.com/in/mehak-oberoi-9191a62b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -215,12 +239,10 @@ const About = () => {
                 githubLink: "https://github.com/Ishanb747",
                 linkedinLink: "https://www.linkedin.com/in/ishan-bhattacharya-032413275/",
               },
-
-
               {
                 circleImageSrc: "/images/sanidhya.png",
                 name: "SANIDHYA (@sushpalsingh)",
-                description: "Embedded Systems | IOT",
+                description: "Core | Embedded Systems | IOT",
                 instagramLink: "https://www.instagram.com/sanidhyajain7/",
                 githubLink: "https://github.com/sanidhyaazz",
                 linkedinLink: "https://www.linkedin.com/in/sanidhyajain7/",
@@ -236,7 +258,7 @@ const About = () => {
               {
                 circleImageSrc: "/images/Tanishk.jpg",
                 name: "TANISHK (@NeoLogic)",
-                description: " Electronics | IOT  ",
+                description: "Core | Electronics | IOT  ",
                 instagramLink: "https://www.instagram.com/tanishk8256/",
                 githubLink: "https://github.com/Hack-jack-Electronics",
                 linkedinLink: "https://www.linkedin.com/in/tanishk8256/",
@@ -266,14 +288,6 @@ const About = () => {
                 linkedinLink: "https://www.linkedin.com/in/aggarwalbhavye12"
               },
               {
-                circleImageSrc: "/images/ADITYA_dev.jpg",
-                name: "ADITYA DEV SINGH ( @deviant)",
-                description: " Ros2 | IOT ",
-                instagramLink: "https://www.instagram.com/dev_deviant/",
-                githubLink: " https://github.com/iAdityaDev",
-                linkedinLink: "https://www.linkedin.com/in/iadityadev"
-              },
-              {
                 circleImageSrc: "/images/shivansh.jpg",
                 name: "SHIVANSH SINGHANIA( @madhumakkhi )",
                 description: " Ros2 | IOT | Electronics ",
@@ -284,20 +298,11 @@ const About = () => {
               {
                 circleImageSrc: "/images/Bhoju_sir.jpg",
                 name: "SANCHIT BHOJWANI ( @bhojukaka )",
-                description: " Electronics | IOT ",
+                description: "Core | Electronics | IOT ",
                 instagramLink: "https://www.instagram.com/sanchitbhojwani/",
                 githubLink: "https://github.com/SanchitBhojwani",
                 linkedinLink: "https://www.linkedin.com/in/sanchit-bhojwani-b9aa78314"
               },
-              {
-                circleImageSrc: "/images/kirmada.png",
-                name: "YASHVARDHAN KUMAR ( @Kirmada )",
-                description: " Electronics | IOT | CAD  ",
-                instagramLink: "https://www.instagram.com/yash_vardhan2410/",
-                githubLink: " https://github.com/Y1shv2r",
-                linkedinLink: "https://www.linkedin.com/in/yash-vardhan-kumar-26b08822"
-              },
-              
               {
                 circleImageSrc: "/images/MOULIK.png",
                 name: "MOULIK GARG ( @molikule )",
@@ -309,18 +314,10 @@ const About = () => {
               {
                 circleImageSrc: "/images/Earthian.jpeg",
                 name: "Earthian Prithviwasi ( @Earthian Prithviwasi )",
-                description: " Electronics | Ros2 ",
+                description: "Core | Electronics | Ros2 ",
                 instagramLink: "https://www.instagram.com/earthianprithviwasi/",
                 githubLink: "https://github.com/Earthia8",
                 linkedinLink: "https://www.linkedin.com/in/earthianprithviwasi"
-              },
-              {
-                circleImageSrc: "/images/SHIVAM.png",
-                name: "SHIVAM GUPTA ( @bhaikilaundry )",
-                description: " Electronics | Ros2 ",
-                instagramLink: "https://www.instagram.com/shivam_sensei/",
-                githubLink: "https://github.com/shivam-sensei",
-                linkedinLink: "https://www.linkedin.com/in/shivam-gupta-ab609a218/"
               },
               {
                 circleImageSrc: "/images/vedika.png",
@@ -341,7 +338,7 @@ const About = () => {
               {
                 circleImageSrc: "/images/YPS.jpg",
                 name: "YASH PRATAP SINGH ( @YPS )",
-                description: " Electronics | Ros2 ",
+                description: "Core | Electronics | Ros2 ",
                 instagramLink: "https://www.instagram.com/p.s._yash?igsh=MWdvYWxtcmdydHZtcw==",
                 githubLink: "https://github.com/YashPS-code",
                 linkedinLink: "https://www.linkedin.com/in/yash-pratap-singh-0389a9334"
@@ -357,7 +354,7 @@ const About = () => {
               {
                 circleImageSrc: "/images/sakshamJain.png",
                 name: "Saksham Jain (@GearbOx)",
-                description: " Electronics ",
+                description: "Core | Electronics ",
                 instagramLink: "https://www.instagram.com/whiskersnwires/",
                 githubLink: "https://github.com/gearbOx16",
                 linkedinLink: "https://linkedin.com/in/saksham-jain-941a2632b/"
@@ -365,7 +362,7 @@ const About = () => {
               {
                 circleImageSrc: "/images/vanshMittal.png",
                 name: "Vansh Mittal (@mittu da)",
-                description: " CAD | ROS |  Electronics ",
+                description: "Core | CAD | ROS |  Electronics ",
                 instagramLink: " https://www.instagram.com/mittal_vansh05",
                 githubLink: "https://github.com/van05-04",
                 linkedinLink: "https://linkedin.com/in/vansh-mittal-702094333/"
