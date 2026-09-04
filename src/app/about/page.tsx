@@ -413,13 +413,13 @@ const About = () => {
                 linkedinLink: "https://www.linkedin.com/in/mahir-pandey-184a63287"
               },
 
-              {
-                circleImageSrc: "/images/aman.webp",
-                name: "Aman Kumar Yadav (@hyper_engine)",
-                description: "ROS | Electronics",
-                githubLink: "https://github.com/PiX8iT",
-                linkedinLink: "https://www.linkedin.com/in/aman-kumar-yadav-b1b65a381"
-              },
+              // {
+              //   circleImageSrc: "/images/aman.webp",
+              //   name: "Aman Kumar Yadav (@hyper_engine)",
+              //   description: "ROS | Electronics",
+              //   githubLink: "https://github.com/PiX8iT",
+              //   linkedinLink: "https://www.linkedin.com/in/aman-kumar-yadav-b1b65a381"
+              // },
 
               //               {
               //   circleImageSrc: "/images/khushal.webp",
@@ -429,14 +429,14 @@ const About = () => {
               //   linkedinLink: "https://www.linkedin.com/in/khushal-jamdegni-4b3a57313/"
               // },
 
-              // {
-              //   circleImageSrc: "/images/vanshbhardwaj.webp",
-              //   name: "Vansh Bhardwaj (@vanshbhardwaj 
-              //   description: "Core | Electronics",
-              //   instagramLink: "https://www.instagram.com/vansh_vb07?igsi=emJ0MGV5YXc3aXN4",
-              //   githubLink: "https://github.com/Vansh-77",
-              //   linkedinLink: "https://www.linkedin.com/in/vansh-bhardwaj-2102b7328?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-              // },
+              {
+                circleImageSrc: "/images/vanshbhardwaj.webp",
+                name: "Vansh Bhardwaj (@vanshbhardwaj), 
+                description: "Core | Electronics",
+                instagramLink: "https://www.instagram.com/vansh_vb07?igsi=emJ0MGV5YXc3aXN4",
+                githubLink: "https://github.com/Vansh-77",
+                linkedinLink: "https://www.linkedin.com/in/vansh-bhardwaj-2102b7328?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              },
 
               {
                 circleImageSrc: "/images/sakshammalik.webp",
