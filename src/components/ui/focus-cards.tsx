@@ -11,7 +11,7 @@ type CardProps = {
     circleImageSrc?: string; // Optional image source for the circle
     name: string;
     description?: string; // Optional description
-    instagramLink: string;
+    instagramLink?: string;
     githubLink: string;
     linkedinLink?: string; // Optional LinkedIn link
   };
@@ -90,7 +90,7 @@ const Card = React.memo(({ card, index, hovered, setHovered }: CardProps) => (
 
 Card.displayName = "Card";
 
-export function FocusCards({ cards }: { cards: { circleImageSrc?: string; name: string; description?: string; instagramLink: string; githubLink: string; linkedinLink?: string }[] }) {
+export function FocusCards({ cards }: { cards: { circleImageSrc?: string; name: string; description?: string; instagramLink?: string; githubLink: string; linkedinLink?: string }[] }) {
   const [hovered, setHovered] = useState<number | null>(null);
   const [page, setPage] = useState(0);
 

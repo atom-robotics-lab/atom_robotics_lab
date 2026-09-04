@@ -413,21 +413,21 @@ const About = () => {
                 linkedinLink: "https://www.linkedin.com/in/mahir-pandey-184a63287"
               },
 
-              // {
-              //   circleImageSrc: "/images/aman.webp",
-              //   name: "Aman Kumar Yadav (@hyper_engine)",
-              //   description: "ROS | Electronics",
-              //   githubLink: "https://github.com/PiX8iT",
-              //   linkedinLink: "https://www.linkedin.com/in/aman-kumar-yadav-b1b65a381"
-              // },
+              {
+                circleImageSrc: "/images/aman.webp",
+                name: "Aman Kumar Yadav (@hyper_engine)",
+                description: "ROS | Electronics",
+                githubLink: "https://github.com/PiX8iT",
+                linkedinLink: "https://www.linkedin.com/in/aman-kumar-yadav-b1b65a381"
+              },
 
-              //               {
-              //   circleImageSrc: "/images/khushal.webp",
-              //   name: "Khushal Jamdegni (@Baddie)",
-              //   description: "Electronics",
-              //   githubLink: "https://github.com/khushaljamdegni",
-              //   linkedinLink: "https://www.linkedin.com/in/khushal-jamdegni-4b3a57313/"
-              // },
+              {
+                circleImageSrc: "/images/khushal.webp",
+                name: "Khushal Jamdegni (@Baddie)",
+                description: "Electronics",
+                githubLink: "https://github.com/khushaljamdegni",
+                linkedinLink: "https://www.linkedin.com/in/khushal-jamdegni-4b3a57313/"
+              },
 
               {
                 circleImageSrc: "/images/vanshbhardwaj.webp",
