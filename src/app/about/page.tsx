@@ -377,14 +377,14 @@ const About = () => {
                 linkedinLink: "https://www.linkedin.com/in/yuvraj2007/"
               },
 
-              // {
-              //   circleImageSrc: "/images/gurmeet.webp",
-              //   name: "Gurmeet Singh (@Gurii)",
-              //   description: "ROS |  Electronics ",
-              //   instagramLink: "https://www.instagram.com/its_gurii_heree/",
-              //   githubLink: "https://github.com/Gurmeet-eng",
-              //   linkedinLink: "https://www.linkedin.com/in/gurmeet2006/"
-              // },
+              {
+                circleImageSrc: "/images/gurmeet.webp",
+                name: "Gurmeet Singh (@Gurii)",
+                description: "ROS |  Electronics ",
+                instagramLink: "https://www.instagram.com/its_gurii_heree/",
+                githubLink: "https://github.com/Gurmeet-eng",
+                linkedinLink: "https://www.linkedin.com/in/gurmeet2006/"
+              },
   
 
               // {
