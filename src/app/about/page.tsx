@@ -431,7 +431,7 @@ const About = () => {
 
               {
                 circleImageSrc: "/images/vanshbhardwaj.webp",
-                name: "Vansh Bhardwaj (@vanshbhardwaj), 
+                name: "Vansh Bhardwaj (@vanshbhardwaj)",
                 description: "Core | Electronics",
                 instagramLink: "https://www.instagram.com/vansh_vb07?igsi=emJ0MGV5YXc3aXN4",
                 githubLink: "https://github.com/Vansh-77",
