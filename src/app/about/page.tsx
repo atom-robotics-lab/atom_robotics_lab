@@ -368,14 +368,84 @@ const About = () => {
                 linkedinLink: "https://linkedin.com/in/vansh-mittal-702094333/"
               },
 
-
+//##########################################              2025-26                       ################################
               {
                 circleImageSrc: "/images/yuvraj.webp",
-                name: "Vansh Mittal (@mittu da)",
+                name: "Yuvraj Vikram Singh (@Yuvraj)",
                 description: "Core | CAD | ROS |  Electronics ",
-                instagramLink: " https://www.instagram.com/mittal_vansh05",
-                githubLink: "https://github.com/van05-04",
-                linkedinLink: "https://linkedin.com/in/vansh-mittal-702094333/"
+                instagramLink: "https://www.instagram.com/i_am_yuvraj_08/",
+                githubLink: "https://github.com/YuvrajVikramSingh-08",
+                linkedinLink: "https://www.linkedin.com/in/yuvraj2007/"
+              },
+
+              {
+                circleImageSrc: "/images/gurmeet.webp",
+                name: "Gurmeet Singh (@Gurii)",
+                description: "ROS |  Electronics ",
+                instagramLink: "https://www.instagram.com/its_gurii_heree/",
+                githubLink: "https://github.com/Gurmeet-eng",
+                linkedinLink: "https://www.linkedin.com/in/gurmeet2006/"
+              },
+  
+
+              {
+                circleImageSrc: "/images/palash.webp",
+                name: "Palash Kuchroo (@palxsh_)",
+                description: "Electronics ",
+                githubLink: " https://github.com/palashkuchroo",
+                linkedinLink: "https://www.linkedin.com/in/gurmeet2006/"
+              },
+
+              {
+                circleImageSrc: "/images/shivammittal.webp",
+                name: "Shivam Mittal (@Endermen)",
+                description: "Electronics ",
+                instagramLink: "https://www.instagram.com/shivamxmittal/",
+                githubLink: "https://github.com/shivam-m0",
+                linkedinLink: "https://www.linkedin.com/in/shivam-mittal-783431389/"
+              },
+
+              {
+                circleImageSrc: "/images/mahir.webp",
+                name: "Mahir Pandey (@Seedhe Muté)",
+                description: "Electronics",
+                instagramLink: "https://www.instagram.com/cruciferr",
+                githubLink: "https://github.com/Cruciferrr",
+                linkedinLink: "https://www.linkedin.com/in/mahir-pandey-184a63287"
+              },
+
+              {
+                circleImageSrc: "/images/aman.webp",
+                name: "Aman Kumar Yadav (@hyper_engine)",
+                description: "ROS | Electronics",
+                githubLink: "https://github.com/PiX8iT",
+                linkedinLink: "https://www.linkedin.com/in/aman-kumar-yadav-b1b65a381"
+              },
+
+                            {
+                circleImageSrc: "/images/khushal.webp",
+                name: "Khushal Jamdegni (@Baddie)",
+                description: "Electronics",
+                githubLink: "https://github.com/khushaljamdegni",
+                linkedinLink: "https://www.linkedin.com/in/khushal-jamdegni-4b3a57313/"
+              },
+
+              {
+                circleImageSrc: "/images/vanshbhardwaj.webp",
+                name: "Vansh Bhardwaj (@vanshbhardwaj 
+                description: "Core | Electronics",
+                instagramLink: "https://www.instagram.com/vansh_vb07?igsi=emJ0MGV5YXc3aXN4",
+                githubLink: "https://github.com/Vansh-77",
+                linkedinLink: "https://www.linkedin.com/in/vansh-bhardwaj-2102b7328?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              },
+
+              {
+                circleImageSrc: "/images/sakshammalik.webp",
+                name: "Saksham Malik(@Stormmight)",
+                description: "ROS | Electronics",
+                instagramLink: "https://www.instagram.com/sakshammalik1008/",
+                githubLink: "https://github.com/Stormmite",
+                linkedinLink: "https://www.linkedin.com/in/sakshammalik1008/"
               },
 
             ]}
