@@ -368,7 +368,6 @@ const About = () => {
                 linkedinLink: "https://linkedin.com/in/vansh-mittal-702094333/"
               },
 
-//##########################################              2025-26                       ################################
               {
                 circleImageSrc: "/images/yuvraj.webp",
                 name: "Yuvraj Vikram Singh (@Yuvraj)",
