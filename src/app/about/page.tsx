@@ -429,23 +429,23 @@ const About = () => {
               //   linkedinLink: "https://www.linkedin.com/in/khushal-jamdegni-4b3a57313/"
               // },
 
-              {
-                circleImageSrc: "/images/vanshbhardwaj.webp",
-                name: "Vansh Bhardwaj (@vanshbhardwaj 
-                description: "Core | Electronics",
-                instagramLink: "https://www.instagram.com/vansh_vb07?igsi=emJ0MGV5YXc3aXN4",
-                githubLink: "https://github.com/Vansh-77",
-                linkedinLink: "https://www.linkedin.com/in/vansh-bhardwaj-2102b7328?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-              },
+              // {
+              //   circleImageSrc: "/images/vanshbhardwaj.webp",
+              //   name: "Vansh Bhardwaj (@vanshbhardwaj 
+              //   description: "Core | Electronics",
+              //   instagramLink: "https://www.instagram.com/vansh_vb07?igsi=emJ0MGV5YXc3aXN4",
+              //   githubLink: "https://github.com/Vansh-77",
+              //   linkedinLink: "https://www.linkedin.com/in/vansh-bhardwaj-2102b7328?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              // },
 
-              {
-                circleImageSrc: "/images/sakshammalik.webp",
-                name: "Saksham Malik(@Stormmight)",
-                description: "ROS | Electronics",
-                instagramLink: "https://www.instagram.com/sakshammalik1008/",
-                githubLink: "https://github.com/Stormmite",
-                linkedinLink: "https://www.linkedin.com/in/sakshammalik1008/"
-              },
+              // {
+              //   circleImageSrc: "/images/sakshammalik.webp",
+              //   name: "Saksham Malik(@Stormmight)",
+              //   description: "ROS | Electronics",
+              //   instagramLink: "https://www.instagram.com/sakshammalik1008/",
+              //   githubLink: "https://github.com/Stormmite",
+              //   linkedinLink: "https://www.linkedin.com/in/sakshammalik1008/"
+              // },
 
             ]}
           />
