@@ -392,17 +392,17 @@ const About = () => {
                 name: "Palash Kuchroo (@palxsh_)",
                 description: "Electronics ",
                 githubLink: " https://github.com/palashkuchroo",
-                linkedinLink: "https://www.linkedin.com/in/gurmeet2006/"
+                linkedinLink: " https://www.linkedin.com/in/palash-kuchroo-6a42a7221/"
               },
 
-              {
-                circleImageSrc: "/images/shivammittal.webp",
-                name: "Shivam Mittal (@Endermen)",
-                description: "Electronics ",
-                instagramLink: "https://www.instagram.com/shivamxmittal/",
-                githubLink: "https://github.com/shivam-m0",
-                linkedinLink: "https://www.linkedin.com/in/shivam-mittal-783431389/"
-              },
+              // {
+              //   circleImageSrc: "/images/shivammittal.webp",
+              //   name: "Shivam Mittal (@Endermen)",
+              //   description: "Electronics ",
+              //   instagramLink: "https://www.instagram.com/shivamxmittal/",
+              //   githubLink: "https://github.com/shivam-m0",
+              //   linkedinLink: "https://www.linkedin.com/in/shivam-mittal-783431389/"
+              // },
 
               // {
               //   circleImageSrc: "/images/mahir.webp",
