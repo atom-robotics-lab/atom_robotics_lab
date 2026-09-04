@@ -368,6 +368,16 @@ const About = () => {
                 linkedinLink: "https://linkedin.com/in/vansh-mittal-702094333/"
               },
 
+
+              {
+                circleImageSrc: "/images/yuvraj.webp",
+                name: "Vansh Mittal (@mittu da)",
+                description: "Core | CAD | ROS |  Electronics ",
+                instagramLink: " https://www.instagram.com/mittal_vansh05",
+                githubLink: "https://github.com/van05-04",
+                linkedinLink: "https://linkedin.com/in/vansh-mittal-702094333/"
+              },
+
             ]}
           />
         </div>
