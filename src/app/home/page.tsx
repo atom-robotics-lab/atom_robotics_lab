@@ -1,126 +1,282 @@
 "use client";
 
 import React from "react";
-import { Box, Button, Typography } from "@mui/material";
-import ReactPlayer from "react-player";
+import { Box, Typography } from "@mui/material";
 import { Poppins } from "next/font/google";
-import Typewriter from "typewriter-effect";
+import AtomHero from "@/components/hero/atom-hero";
+import AtomReel from "@/components/atom-reel";
+import MentorSpotlight from "@/components/mentor/mentor-spotlight";
+import ScrollProgress from "@/components/scroll/scroll-progress";
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
 
 const Home = () => {
+  // =====================================================
+  // MAIN RETURN
+  // =====================================================
+
   return (
     <Box
       sx={{
         position: "relative",
-        minHeight: { md: "100vh", xs: "60vh" },
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: 0,
+        width: "100%",
         overflow: "hidden",
+        backgroundColor: "#000",
       }}
     >
-      {/* Background Video */}
-      <ReactPlayer
-        url="/4.mp4"
-        playing={true}
-        loop
-        muted
-        playsinline
-        width="100%"
-        height="100%"
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          zIndex: -1,
-          opacity: 0.5,
-          transform: "scale(1.2)", // Zoom in effect
-          objectFit: "cover", // Make sure the video covers the container
-        }}
+      <ScrollProgress
+        waypoints={[
+          { id: "top", label: "Top" },
+          { id: "glimpses", label: "Glimpses" },
+          { id: "mentor", label: "Mentor" },
+        ]}
       />
 
-      {/* Content */}
-      <Typography
-        variant="h2"
-        component="h1"
-        className={poppins.className}
-        sx={{
-          fontSize: {
-            md: "90px",
-            xs: "40px",
-          }, // Adjusted responsive font size
-          fontWeight: "bold",
-          color: "#ffff",
-          textAlign: "center",
-          marginBottom: { xs: "1.5rem", sm: "2rem", md: "3rem" },
-        }}
-      >
-        <Typewriter
-          options={{
-            strings: [
-              "Welcome to A.T.O.M Robotics",
-              "Innovate. Create. Automate.",
-            ],
-            autoStart: true,
-            loop: true,
-          }}
-        />
-      </Typography>
+      {/* ================================================= */}
+      {/* ================= HERO SECTION ================== */}
+      {/* ================================================= */}
+
+      <AtomHero scrollTargetId="glimpses" />
+
+      {/* ================================================= */}
+      {/* ================= OUR GLIMPSES ================== */}
+      {/* ================================================= */}
 
       <Box
+        id="glimpses"
         sx={{
-          display: "flex",
-          flexDirection: "row",
-          gap: { xs: "1rem", sm: "1.5rem", md: "2rem" },
-          marginTop: "2rem",
-          flexWrap: "wrap",
-          justifyContent: "center",
+          position: "relative",
+
+          width: "100%",
+
+          padding: {
+            xs: "65px 15px 75px",
+            sm: "80px 30px 90px",
+            md: "100px 60px 110px",
+          },
+
+          background:
+            "radial-gradient(circle at 50% 20%, rgba(0,191,255,0.10), transparent 35%), linear-gradient(180deg, #000810 0%, #00111f 100%)",
+
+          overflow: "hidden",
+
+          "&::before": {
+            content: '""',
+
+            position: "absolute",
+
+            width: "500px",
+
+            height: "500px",
+
+            borderRadius: "50%",
+
+            background: "rgba(0,191,255,0.07)",
+
+            filter: "blur(100px)",
+
+            top: "-250px",
+
+            left: "50%",
+
+            transform: "translateX(-50%)",
+          },
         }}
       >
-        <Button
-          className="button"
+        {/* ================================================= */}
+        {/* SMALL LABEL */}
+        {/* ================================================= */}
+
+        <Typography
+          className={poppins.className}
           sx={{
+            position: "relative",
+
+            color: "#00bfff",
+
+            fontSize: {
+              xs: "11px",
+              sm: "12px",
+              md: "13px",
+            },
+
+            fontWeight: "700",
+
+            letterSpacing: "4px",
+
+            textAlign: "center",
+
+            marginBottom: "10px",
+
+            textTransform: "uppercase",
+          }}
+        >
+          LIFE AT A.T.O.M
+        </Typography>
+
+        {/* ================================================= */}
+        {/* MAIN HEADING */}
+        {/* ================================================= */}
+
+        <Typography
+          className={poppins.className}
+          sx={{
+            position: "relative",
+
             color: "white",
-            borderRadius: "20px",
-            fontWeight: "bold",
-            padding: {
-              xs: "0.5rem 1rem",
-              sm: "0.5rem 1.25rem",
-              md: "0.5rem 1.5rem",
+
+            fontSize: {
+              xs: "34px",
+              sm: "45px",
+              md: "55px",
+            },
+
+            fontWeight: "700",
+
+            textAlign: "center",
+
+            lineHeight: 1.1,
+
+            marginBottom: "12px",
+          }}
+        >
+          OUR{" "}
+          <span
+            style={{
+              background:
+                "linear-gradient(90deg, #00bfff, #6c63ff, #00bfff)",
+
+              WebkitBackgroundClip: "text",
+
+              WebkitTextFillColor: "transparent",
+
+              backgroundSize: "200% auto",
+            }}
+          >
+            GLIMPSES
+          </span>
+        </Typography>
+
+        {/* ================================================= */}
+        {/* SUBTITLE */}
+        {/* ================================================= */}
+
+        <Typography
+          className={poppins.className}
+          sx={{
+            position: "relative",
+
+            color: "rgba(255,255,255,0.55)",
+
+            fontSize: {
+              xs: "13px",
+              sm: "14px",
+              md: "16px",
+            },
+
+            textAlign: "center",
+
+            marginBottom: {
+              xs: "35px",
+              md: "50px",
             },
           }}
-          href="https://lnk.bio/A.T.O.M"
         >
-          Contact Us
-        </Button>
-        <Button
-          className="button"
+          Moments. Machines. Memories. 🤖
+        </Typography>
+
+        {/* ================================================= */}
+        {/* =================== REEL ======================== */}
+        {/* ================================================= */}
+
+        <Box
           sx={{
-            color: "white",
-            borderRadius: "20px",
-            fontWeight: "bold",
-            padding: {
-              xs: "0.5rem 1rem",
-              sm: "0.5rem 1.25rem",
-              md: "0.5rem 1.5rem",
+            position: "relative",
+
+            width: "100%",
+
+            maxWidth: "1150px",
+
+            height: {
+              xs: "270px",
+              sm: "430px",
+              md: "600px",
             },
+
+            margin: "0 auto",
+
+            borderRadius: {
+              xs: "20px",
+              md: "28px",
+            },
+
+            overflow: "hidden",
+
+            backgroundColor: "#02080d",
+
+            border: "1px solid rgba(255,255,255,0.12)",
+
+            boxShadow:
+              "0 25px 80px rgba(0,0,0,0.65), 0 0 60px rgba(0,191,255,0.10)",
           }}
-          href="https://atom-robotics-lab.github.io/wiki/"
         >
-          Selection Task
-        </Button>
+          {/* Nine WebGL transitions and a film grade, cutting between the same
+              five club photographs the old carousel showed. `ar-framed` keeps
+              the reel inside this box rather than letting it take the viewport;
+              it brings its own captions, chapter rail and progress bar, so the
+              arrows, counter and dots that used to sit here are gone. */}
+          <AtomReel
+            className="ar-framed"
+            label="A.T.O.M Robotics"
+            sublabel="Robotics Society of MAIT"
+            holdMs={3000}
+          />
+        </Box>
+
+        {/* ================================================= */}
+        {/* BOTTOM TEXT */}
+        {/* ================================================= */}
+
+        <Typography
+          className={poppins.className}
+          sx={{
+            color:
+              "rgba(255,255,255,0.3)",
+
+            fontSize: "10px",
+
+            textAlign: "center",
+
+            letterSpacing: "2px",
+
+            marginTop: "22px",
+
+            textTransform: "uppercase",
+          }}
+        >
+          Hover the frame &middot; chapters on the right &middot; arrow keys
+        </Typography>
       </Box>
+
+      {/* ================================================= */}
+      {/* ================ FACULTY MENTOR ================= */}
+      {/* ================================================= */}
+
+      <MentorSpotlight id="mentor" />
+
+      {/* ================================================= */}
+      {/* EXISTING ANIMATION STYLES */}
+      {/* ================================================= */}
 
       <style jsx>{`
         @keyframes typing {
           from {
             width: 0;
           }
+
           to {
             width: 90%;
           }
@@ -131,6 +287,7 @@ const Home = () => {
           to {
             border-color: transparent;
           }
+
           50% {
             border-color: #001ea5;
           }
